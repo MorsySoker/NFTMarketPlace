@@ -19,9 +19,7 @@ struct TopCreatorsView:  View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 20) {
                     ForEach(viewModel.creatorsArray) { creator in
-                        CreatorIconView(image: creator.image,
-                                        name: creator.name,
-                                        precentageValue: creator.precentageValue)
+                        CreatorIconView(creator: creator)
                     }
                 }
             }
