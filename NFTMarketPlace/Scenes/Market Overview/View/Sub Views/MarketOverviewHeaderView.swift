@@ -9,7 +9,38 @@ import SwiftUI
 
 struct MarketOverviewHeaderView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack(alignment: .top){
+            Image("creator7")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 50, height: 50)
+            VStack(alignment: .leading){
+                
+                Text("Jasmine_Life")
+//                    .foregroundColor(Color.white)
+                Text("Creator")
+                    .foregroundColor(Color("#FD405E"))
+            }
+            Image(systemName: "checkmark.seal.fill")
+                .foregroundColor(Color("#32C5FF"))
+            Spacer()
+            Button {}
+        label: {
+                Text("Ting")
+                .foregroundColor(Color.white)
+                .background(
+                Rectangle()
+                    .frame(width: 100, height: 30)
+                    .foregroundColor(Color("#FD405E"))
+                   
+                )
+            Image(systemName: "bell.fill")
+                .foregroundColor(Color.white)
+        
+        }.padding(.trailing, 13)
+
+            
+        }.padding(.horizontal)
     }
 }
 
