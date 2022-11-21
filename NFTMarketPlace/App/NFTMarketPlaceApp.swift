@@ -11,7 +11,7 @@ import SwiftUI
 struct NFTMarketPlaceApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NFTModuleView()
         }
     }
 }

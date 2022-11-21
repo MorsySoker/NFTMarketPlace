@@ -7,18 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D7A4ACD292BCE8F00691C97 /* CreatorsCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A4ACC292BCE8F00691C97 /* CreatorsCardsView.swift */; };
+		1D7A4AD2292BD09100691C97 /* NFTModuleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A4AD1292BD09100691C97 /* NFTModuleViewModel.swift */; };
 		1DB2DC16292BC7800070EB67 /* NFTMarketPlaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2DC15292BC7800070EB67 /* NFTMarketPlaceApp.swift */; };
-		1DB2DC18292BC7800070EB67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2DC17292BC7800070EB67 /* ContentView.swift */; };
 		1DB2DC1A292BC7830070EB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2DC19292BC7830070EB67 /* Assets.xcassets */; };
 		1DB2DC1D292BC7830070EB67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2DC1C292BC7830070EB67 /* Preview Assets.xcassets */; };
+		1DB2DC25292BC7DC0070EB67 /* NFTModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2DC24292BC7DC0070EB67 /* NFTModuleView.swift */; };
+		1DB2DC28292BC8180070EB67 /* View+Apperance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2DC27292BC8180070EB67 /* View+Apperance.swift */; };
+		1DB2DC2E292BC9C00070EB67 /* CreatorIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2DC2B292BC9C00070EB67 /* CreatorIconView.swift */; };
+		1DB2DC2F292BC9C00070EB67 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2DC2C292BC9C00070EB67 /* HeaderView.swift */; };
+		1DB2DC30292BC9C00070EB67 /* CreatorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2DC2D292BC9C00070EB67 /* CreatorCardView.swift */; };
+		1DB2DC33292BC9E30070EB67 /* TopCreatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2DC31292BC9E30070EB67 /* TopCreatorsView.swift */; };
+		1DB2DC34292BC9E30070EB67 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2DC32292BC9E30070EB67 /* NavigationBarView.swift */; };
+		1DB2DC37292BCA4A0070EB67 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2DC36292BCA4A0070EB67 /* Colors.xcassets */; };
+		1DB2DC39292BCA620070EB67 /* TestImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2DC38292BCA620070EB67 /* TestImages.xcassets */; };
+		1DB2DC3D292BCAD30070EB67 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2DC3A292BCAD30070EB67 /* Color+Extension.swift */; };
+		1DB2DC3E292BCAD30070EB67 /* Fonts+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2DC3B292BCAD30070EB67 /* Fonts+App.swift */; };
+		1DB2DC3F292BCAD30070EB67 /* Color+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2DC3C292BCAD30070EB67 /* Color+App.swift */; };
+		1DB2DC44292BCB350070EB67 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2DC42292BCB350070EB67 /* Rubik-Medium.ttf */; };
+		1DB2DC45292BCB350070EB67 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2DC43292BCB350070EB67 /* Rubik-Regular.ttf */; };
+		1DC0155E292BD28E00072D45 /* CreatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC0155D292BD28E00072D45 /* CreatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D7A4ACC292BCE8F00691C97 /* CreatorsCardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatorsCardsView.swift; sourceTree = "<group>"; };
+		1D7A4AD1292BD09100691C97 /* NFTModuleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTModuleViewModel.swift; sourceTree = "<group>"; };
 		1DB2DC12292BC7800070EB67 /* NFTMarketPlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFTMarketPlace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB2DC15292BC7800070EB67 /* NFTMarketPlaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTMarketPlaceApp.swift; sourceTree = "<group>"; };
-		1DB2DC17292BC7800070EB67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DB2DC19292BC7830070EB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DB2DC1C292BC7830070EB67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DB2DC24292BC7DC0070EB67 /* NFTModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTModuleView.swift; sourceTree = "<group>"; };
+		1DB2DC27292BC8180070EB67 /* View+Apperance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Apperance.swift"; sourceTree = "<group>"; };
+		1DB2DC2B292BC9C00070EB67 /* CreatorIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatorIconView.swift; sourceTree = "<group>"; };
+		1DB2DC2C292BC9C00070EB67 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1DB2DC2D292BC9C00070EB67 /* CreatorCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatorCardView.swift; sourceTree = "<group>"; };
+		1DB2DC31292BC9E30070EB67 /* TopCreatorsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCreatorsView.swift; sourceTree = "<group>"; };
+		1DB2DC32292BC9E30070EB67 /* NavigationBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		1DB2DC36292BCA4A0070EB67 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		1DB2DC38292BCA620070EB67 /* TestImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TestImages.xcassets; sourceTree = "<group>"; };
+		1DB2DC3A292BCAD30070EB67 /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		1DB2DC3B292BCAD30070EB67 /* Fonts+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fonts+App.swift"; sourceTree = "<group>"; };
+		1DB2DC3C292BCAD30070EB67 /* Color+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+App.swift"; sourceTree = "<group>"; };
+		1DB2DC42292BCB350070EB67 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		1DB2DC43292BCB350070EB67 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		1DB2DC46292BCB760070EB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1DC0155D292BD28E00072D45 /* CreatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +65,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D7A4ACE292BD03100691C97 /* Sub Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D7A4ACC292BCE8F00691C97 /* CreatorsCardsView.swift */,
+				1DB2DC32292BC9E30070EB67 /* NavigationBarView.swift */,
+				1DB2DC31292BC9E30070EB67 /* TopCreatorsView.swift */,
+			);
+			path = "Sub Views";
+			sourceTree = "<group>";
+		};
+		1D7A4ACF292BD07300691C97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D7A4ACE292BD03100691C97 /* Sub Views */,
+				1DB2DC24292BC7DC0070EB67 /* NFTModuleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D7A4AD0292BD07B00691C97 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D7A4AD1292BD09100691C97 /* NFTModuleViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
 		1DB2DC09292BC7800070EB67 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +111,13 @@
 		1DB2DC14292BC7800070EB67 /* NFTMarketPlace */ = {
 			isa = PBXGroup;
 			children = (
-				1DB2DC15292BC7800070EB67 /* NFTMarketPlaceApp.swift */,
-				1DB2DC17292BC7800070EB67 /* ContentView.swift */,
-				1DB2DC19292BC7830070EB67 /* Assets.xcassets */,
+				1DB2DC23292BC7BC0070EB67 /* App */,
+				1DB2DC35292BCA240070EB67 /* Resources */,
+				1DB2DC2A292BC91D0070EB67 /* View Components */,
+				1DB2DC29292BC9150070EB67 /* Main */,
+				1DB2DC26292BC8040070EB67 /* Extensions */,
 				1DB2DC1B292BC7830070EB67 /* Preview Content */,
+				1DB2DC46292BCB760070EB67 /* Info.plist */,
 			);
 			path = NFTMarketPlace;
 			sourceTree = "<group>";
@@ -65,6 +128,81 @@
 				1DB2DC1C292BC7830070EB67 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DB2DC23292BC7BC0070EB67 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2DC15292BC7800070EB67 /* NFTMarketPlaceApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1DB2DC26292BC8040070EB67 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2DC3C292BCAD30070EB67 /* Color+App.swift */,
+				1DB2DC3A292BCAD30070EB67 /* Color+Extension.swift */,
+				1DB2DC3B292BCAD30070EB67 /* Fonts+App.swift */,
+				1DB2DC27292BC8180070EB67 /* View+Apperance.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1DB2DC29292BC9150070EB67 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1DC0155C292BD27C00072D45 /* Model */,
+				1D7A4AD0292BD07B00691C97 /* View Model */,
+				1D7A4ACF292BD07300691C97 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1DB2DC2A292BC91D0070EB67 /* View Components */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2DC2D292BC9C00070EB67 /* CreatorCardView.swift */,
+				1DB2DC2B292BC9C00070EB67 /* CreatorIconView.swift */,
+				1DB2DC2C292BC9C00070EB67 /* HeaderView.swift */,
+			);
+			path = "View Components";
+			sourceTree = "<group>";
+		};
+		1DB2DC35292BCA240070EB67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2DC41292BCB350070EB67 /* Fonts */,
+				1DB2DC40292BCAEC0070EB67 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1DB2DC40292BCAEC0070EB67 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2DC19292BC7830070EB67 /* Assets.xcassets */,
+				1DB2DC36292BCA4A0070EB67 /* Colors.xcassets */,
+				1DB2DC38292BCA620070EB67 /* TestImages.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1DB2DC41292BCB350070EB67 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2DC42292BCB350070EB67 /* Rubik-Medium.ttf */,
+				1DB2DC43292BCB350070EB67 /* Rubik-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1DC0155C292BD27C00072D45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DC0155D292BD28E00072D45 /* CreatorModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +263,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB2DC37292BCA4A0070EB67 /* Colors.xcassets in Resources */,
+				1DB2DC45292BCB350070EB67 /* Rubik-Regular.ttf in Resources */,
+				1DB2DC39292BCA620070EB67 /* TestImages.xcassets in Resources */,
 				1DB2DC1D292BC7830070EB67 /* Preview Assets.xcassets in Resources */,
 				1DB2DC1A292BC7830070EB67 /* Assets.xcassets in Resources */,
+				1DB2DC44292BCB350070EB67 /* Rubik-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +279,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DB2DC18292BC7800070EB67 /* ContentView.swift in Sources */,
+				1DB2DC2F292BC9C00070EB67 /* HeaderView.swift in Sources */,
+				1D7A4ACD292BCE8F00691C97 /* CreatorsCardsView.swift in Sources */,
+				1DB2DC3D292BCAD30070EB67 /* Color+Extension.swift in Sources */,
+				1DB2DC3F292BCAD30070EB67 /* Color+App.swift in Sources */,
+				1DC0155E292BD28E00072D45 /* CreatorModel.swift in Sources */,
+				1DB2DC2E292BC9C00070EB67 /* CreatorIconView.swift in Sources */,
+				1DB2DC34292BC9E30070EB67 /* NavigationBarView.swift in Sources */,
+				1DB2DC3E292BCAD30070EB67 /* Fonts+App.swift in Sources */,
+				1DB2DC28292BC8180070EB67 /* View+Apperance.swift in Sources */,
+				1DB2DC25292BC7DC0070EB67 /* NFTModuleView.swift in Sources */,
+				1DB2DC33292BC9E30070EB67 /* TopCreatorsView.swift in Sources */,
+				1D7A4AD2292BD09100691C97 /* NFTModuleViewModel.swift in Sources */,
 				1DB2DC16292BC7800070EB67 /* NFTMarketPlaceApp.swift in Sources */,
+				1DB2DC30292BC9C00070EB67 /* CreatorCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +423,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NFTMarketPlace/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NFTMarketPlace/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -281,9 +436,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = NFTMarketPlace.com.app.NFTMarketPlace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -297,6 +455,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NFTMarketPlace/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NFTMarketPlace/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,9 +468,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = NFTMarketPlace.com.app.NFTMarketPlace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
