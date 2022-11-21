@@ -18,11 +18,34 @@ struct CreatorModel: Identifiable {
     
     static func creators() -> [CreatorModel] {
         [
-            CreatorModel(image: "creator1", name: "@Moshe.Ba...", precentageValue: "+12.63%", role: "Dance", balanceInan: "1000", balanceDollar: "200"),
-            CreatorModel(image: "creator2", name: "@Mario_Jo...", precentageValue: "+12.63%", role: "Dance", balanceInan: "1000", balanceDollar: "200"),
-            CreatorModel(image: "creator3", name: "@Hailee_ho...", precentageValue: "+12.63%", role: "Dance", balanceInan: "1000", balanceDollar: "200"),
-            CreatorModel(image: "creator4", name: "@Moshe.Ba...", precentageValue: "+12.63%", role: "Dance", balanceInan: "1000", balanceDollar: "200"),
-            CreatorModel(image: "creator4", name: "@Moshe.Ba...", precentageValue: "+12.63%", role: "Dance", balanceInan: "1000", balanceDollar: "200")
+            CreatorModel(image: "creator1",
+                         name: "@Moshe.Ba...",
+                         precentageValue: "+12.63%",
+                         role: "Dance", balanceInan: "1000",
+                         balanceDollar: "200"),
+            CreatorModel(image: "creator2", name: "@Mario_Jo...",
+                         precentageValue: "+12.63%",
+                         role: "Dance",
+                         balanceInan: "1000",
+                         balanceDollar: "200"),
+            CreatorModel(image: "creator3",
+                         name: "@Hailee_ho...",
+                         precentageValue: "+12.63%",
+                         role: "Dance",
+                         balanceInan: "1000",
+                         balanceDollar: "200"),
+            CreatorModel(image: "creator4",
+                         name: "@Moshe.Ba...",
+                         precentageValue: "+12.63%",
+                         role: "Dance",
+                         balanceInan: "1000",
+                         balanceDollar: "200"),
+            CreatorModel(image: "creator4",
+                         name: "@Moshe.Ba...",
+                         precentageValue: "+12.63%",
+                         role: "Dance",
+                         balanceInan: "1000",
+                         balanceDollar: "200")
         ]
     }
 }

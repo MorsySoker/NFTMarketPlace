@@ -10,25 +10,23 @@ import SwiftUI
 
 struct CreatorIconView: View {
     
-    var image: String
-    var name: String
-    var precentageValue: String
+    var creator: CreatorModel
     
     var body: some View {
         Button { } label: {
             VStack(alignment: .leading, spacing: 2) {
-                Image("\(image)")
+                Image("\(creator.image)")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 70, height: 70)
                 
-                Text("\(name)")
+                Text("\(creator.name)")
                     .foregroundColor(.gray)
                     .font(.rubikRegular(12))
                 HStack {
                     Image(systemName: "arrowtriangle.up.fill")
                         .foregroundColor(.green)
-                    Text("\(precentageValue)")
+                    Text("\(creator.precentageValue)")
                         .foregroundColor(.green)
                         .font(.rubikRegular(12))
                 }
