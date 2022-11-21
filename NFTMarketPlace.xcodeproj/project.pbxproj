@@ -27,6 +27,7 @@
 		1DB2DC44292BCB350070EB67 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2DC42292BCB350070EB67 /* Rubik-Medium.ttf */; };
 		1DB2DC45292BCB350070EB67 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2DC43292BCB350070EB67 /* Rubik-Regular.ttf */; };
 		1DC0155E292BD28E00072D45 /* CreatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC0155D292BD28E00072D45 /* CreatorModel.swift */; };
+		1DC01565292BF42500072D45 /* MarketOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC01564292BF42500072D45 /* MarketOverviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		1DB2DC43292BCB350070EB67 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		1DB2DC46292BCB760070EB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1DC0155D292BD28E00072D45 /* CreatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorModel.swift; sourceTree = "<group>"; };
+		1DC01564292BF42500072D45 /* MarketOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketOverviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +116,7 @@
 				1DB2DC23292BC7BC0070EB67 /* App */,
 				1DB2DC35292BCA240070EB67 /* Resources */,
 				1DB2DC2A292BC91D0070EB67 /* View Components */,
-				1DB2DC29292BC9150070EB67 /* Main */,
+				1DB2DC29292BC9150070EB67 /* Scenes */,
 				1DB2DC26292BC8040070EB67 /* Extensions */,
 				1DB2DC1B292BC7830070EB67 /* Preview Content */,
 				1DB2DC46292BCB760070EB67 /* Info.plist */,
@@ -149,14 +151,13 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		1DB2DC29292BC9150070EB67 /* Main */ = {
+		1DB2DC29292BC9150070EB67 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				1DC0155C292BD27C00072D45 /* Model */,
-				1D7A4AD0292BD07B00691C97 /* View Model */,
-				1D7A4ACF292BD07300691C97 /* View */,
+				1DC01560292BF3F500072D45 /* Creators */,
+				1DC0155F292BF3E000072D45 /* Market Overview */,
 			);
-			path = Main;
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 		1DB2DC2A292BC91D0070EB67 /* View Components */ = {
@@ -203,6 +204,56 @@
 				1DC0155D292BD28E00072D45 /* CreatorModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		1DC0155F292BF3E000072D45 /* Market Overview */ = {
+			isa = PBXGroup;
+			children = (
+				1DC01563292BF40D00072D45 /* Model */,
+				1DC01562292BF40500072D45 /* View Model */,
+				1DC01561292BF40000072D45 /* View */,
+			);
+			path = "Market Overview";
+			sourceTree = "<group>";
+		};
+		1DC01560292BF3F500072D45 /* Creators */ = {
+			isa = PBXGroup;
+			children = (
+				1DC0155C292BD27C00072D45 /* Model */,
+				1D7A4AD0292BD07B00691C97 /* View Model */,
+				1D7A4ACF292BD07300691C97 /* View */,
+			);
+			path = Creators;
+			sourceTree = "<group>";
+		};
+		1DC01561292BF40000072D45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1DC01566292BF42900072D45 /* Sub Views */,
+				1DC01564292BF42500072D45 /* MarketOverviewView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1DC01562292BF40500072D45 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		1DC01563292BF40D00072D45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1DC01566292BF42900072D45 /* Sub Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Sub Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +340,7 @@
 				1DB2DC3E292BCAD30070EB67 /* Fonts+App.swift in Sources */,
 				1DB2DC28292BC8180070EB67 /* View+Apperance.swift in Sources */,
 				1DB2DC25292BC7DC0070EB67 /* NFTModuleView.swift in Sources */,
+				1DC01565292BF42500072D45 /* MarketOverviewView.swift in Sources */,
 				1DB2DC33292BC9E30070EB67 /* TopCreatorsView.swift in Sources */,
 				1D7A4AD2292BD09100691C97 /* NFTModuleViewModel.swift in Sources */,
 				1DB2DC16292BC7800070EB67 /* NFTMarketPlaceApp.swift in Sources */,

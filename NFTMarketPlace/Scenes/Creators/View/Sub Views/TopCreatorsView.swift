@@ -12,7 +12,7 @@ struct TopCreatorsView:  View {
     @ObservedObject var viewModel: NFTModuleViewModel
     var headerText: String = "Top Creators"
     
-    var body : some View{
+    var body: some View {
         VStack(spacing: 10){
             HeaderView(text: headerText)
             
