@@ -28,6 +28,7 @@
 		1DB2DC45292BCB350070EB67 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2DC43292BCB350070EB67 /* Rubik-Regular.ttf */; };
 		1DC0155E292BD28E00072D45 /* CreatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC0155D292BD28E00072D45 /* CreatorModel.swift */; };
 		1DC01565292BF42500072D45 /* MarketOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC01564292BF42500072D45 /* MarketOverviewView.swift */; };
+		1DC01568292BF5DF00072D45 /* MarketOverviewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC01567292BF5DF00072D45 /* MarketOverviewHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		1DB2DC46292BCB760070EB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1DC0155D292BD28E00072D45 /* CreatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorModel.swift; sourceTree = "<group>"; };
 		1DC01564292BF42500072D45 /* MarketOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketOverviewView.swift; sourceTree = "<group>"; };
+		1DC01567292BF5DF00072D45 /* MarketOverviewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketOverviewHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +254,7 @@
 		1DC01566292BF42900072D45 /* Sub Views */ = {
 			isa = PBXGroup;
 			children = (
+				1DC01567292BF5DF00072D45 /* MarketOverviewHeaderView.swift */,
 			);
 			path = "Sub Views";
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				1DB2DC2E292BC9C00070EB67 /* CreatorIconView.swift in Sources */,
 				1DB2DC34292BC9E30070EB67 /* NavigationBarView.swift in Sources */,
 				1DB2DC3E292BCAD30070EB67 /* Fonts+App.swift in Sources */,
+				1DC01568292BF5DF00072D45 /* MarketOverviewHeaderView.swift in Sources */,
 				1DB2DC28292BC8180070EB67 /* View+Apperance.swift in Sources */,
 				1DB2DC25292BC7DC0070EB67 /* NFTModuleView.swift in Sources */,
 				1DC01565292BF42500072D45 /* MarketOverviewView.swift in Sources */,
