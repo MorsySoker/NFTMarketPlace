@@ -65,7 +65,6 @@ struct CreatorsCategoryPickerView: View {
     
     
     private func creatorsCategorized(with viewModel: NFTModuleViewModel) -> some View {
-        
         ScrollView(showsIndicators: false) {
             ForEach(viewModel.creatorsArray) { creator in
                 creatorListCellView(creator: creator)
