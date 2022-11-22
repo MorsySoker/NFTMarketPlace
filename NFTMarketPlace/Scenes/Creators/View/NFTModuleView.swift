@@ -16,10 +16,11 @@ struct NFTModuleView: View {
             NavigationBarView()
             TopCreatorsView(viewModel: viewModel)
             CreatorsCardsView(viewModel: viewModel)
-            //            creatorScrollView()
-            Spacer()
+            CreatorsCategoryPickerView(viewModel: viewModel)
         }
         .setBackground()
+        .ignoresSafeArea(.all)
+        
     }
 }
 
