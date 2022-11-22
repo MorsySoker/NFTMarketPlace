@@ -2,7 +2,7 @@
 //  CreatorsCategoryPickerView.swift
 //  NFT MarketPlace
 //
-//  Created by MorsyElsokary on 20/11/2022.
+//  Created by Emad Hany Isaac on 20/11/2022.
 //
 
 import SwiftUI
