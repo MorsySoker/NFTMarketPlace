@@ -36,6 +36,8 @@
 		1DC01568292BF5DF00072D45 /* MarketOverviewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC01567292BF5DF00072D45 /* MarketOverviewHeaderView.swift */; };
 		A2501263292D48D2000B4AF1 /* MarketOVTopCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2501262292D48D2000B4AF1 /* MarketOVTopCategory.swift */; };
 		A2501265292D4A2C000B4AF1 /* MarketOverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2501264292D4A2C000B4AF1 /* MarketOverviewViewModel.swift */; };
+		A250126B292D68F0000B4AF1 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = A250126A292D68F0000B4AF1 /* SwiftUICharts */; };
+		A250126F292D79A7000B4AF1 /* modifers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A250126E292D79A7000B4AF1 /* modifers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,7 @@
 		1DC01567292BF5DF00072D45 /* MarketOverviewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketOverviewHeaderView.swift; sourceTree = "<group>"; };
 		A2501262292D48D2000B4AF1 /* MarketOVTopCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketOVTopCategory.swift; sourceTree = "<group>"; };
 		A2501264292D4A2C000B4AF1 /* MarketOverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MarketOverviewViewModel.swift; path = "NFTMarketPlace/Scenes/Market Overview/View/Sub Views/MarketOverviewViewModel.swift"; sourceTree = SOURCE_ROOT; };
+		A250126E292D79A7000B4AF1 /* modifers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modifers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A250126B292D68F0000B4AF1 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +103,7 @@
 			children = (
 				1D7A4ACE292BD03100691C97 /* Sub Views */,
 				1DB2DC24292BC7DC0070EB67 /* NFTModuleView.swift */,
+				A250126E292D79A7000B4AF1 /* modifers.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -328,6 +333,9 @@
 			dependencies = (
 			);
 			name = NFTMarketPlace;
+			packageProductDependencies = (
+				A250126A292D68F0000B4AF1 /* SwiftUICharts */,
+			);
 			productName = NFTMarketPlace;
 			productReference = 1DB2DC12292BC7800070EB67 /* NFTMarketPlace.app */;
 			productType = "com.apple.product-type.application";
@@ -356,6 +364,9 @@
 				Base,
 			);
 			mainGroup = 1DB2DC09292BC7800070EB67;
+			packageReferences = (
+				A2501269292D68F0000B4AF1 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 1DB2DC13292BC7800070EB67 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -388,6 +399,7 @@
 			files = (
 				1DB2DC2F292BC9C00070EB67 /* HeaderView.swift in Sources */,
 				1D8AE92A292C933300DCDB5B /* AppNavigationBar.swift in Sources */,
+				A250126F292D79A7000B4AF1 /* modifers.swift in Sources */,
 				1DAEE800292C02A500E0C21B /* CategoryView.swift in Sources */,
 				1D8AE92F292CAA2C00DCDB5B /* PageRouter.swift in Sources */,
 				1D7A4ACD292BCE8F00691C97 /* CreatorsCardsView.swift in Sources */,
@@ -615,6 +627,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A2501269292D68F0000B4AF1 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = exactVersion;
+				version = "2.0.0-beta.2";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A250126A292D68F0000B4AF1 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2501269292D68F0000B4AF1 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1DB2DC0A292BC7800070EB67 /* Project object */;
 }

@@ -85,44 +85,45 @@ struct creatorListCellView: View {
     var creator: CreatorModel
     
     var body: some View {
-        HStack(spacing: 10) {
-            Image("\(creator.image)")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 40, height: 40)
-            
-            VStack(alignment: .leading, spacing: 5) {
-                Text(creator.name)
-                    .foregroundColor(.white)
-                    .font(.rubikMedium(14))
-                Text(creator.role)
-                    .foregroundColor(.gray)
-                    .font(.rubikMedium(10))
-            }
-            
-            Spacer()
-            
-            Image("greenGraph")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 70, height: 25)
-            
-            VStack(spacing: 7) {
-                Text("\(creator.balanceInan) INAN")
-                    .font(.rubikRegular(15))
-                    .foregroundColor(Color.white)
+       
+            HStack(spacing: 10) {
+                Image("\(creator.image)")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 40, height: 40)
                 
-                HStack(spacing: 5) {
-                    Image(systemName: "arrowtriangle.up.fill")
-                        .foregroundColor(Color.green)
-                    Text("+\(creator.precentageValue)%")
-                        .foregroundColor(.green)
-                        .font(.rubikRegular(12))
+                VStack(alignment: .leading, spacing: 5) {
+                    Text(creator.name)
+                        .foregroundColor(.white)
+                        .font(.rubikMedium(14))
+                    Text(creator.role)
+                        .foregroundColor(.gray)
+                        .font(.rubikMedium(10))
+                }
+                
+                Spacer()
+                
+                Image("greenGraph")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 70, height: 25)
+                
+                VStack(spacing: 7) {
+                    Text("\(creator.balanceInan) INAN")
+                        .font(.rubikRegular(15))
+                        .foregroundColor(Color.white)
+                    
+                    HStack(spacing: 5) {
+                        Image(systemName: "arrowtriangle.up.fill")
+                            .foregroundColor(Color.green)
+                        Text("+\(creator.precentageValue)%")
+                            .foregroundColor(.green)
+                            .font(.rubikRegular(12))
+                    }
                 }
             }
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .padding()
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding()
     }
 }
 

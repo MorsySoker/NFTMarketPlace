@@ -12,16 +12,17 @@ struct NFTModuleView: View {
     @StateObject var viewModel: NFTModuleViewModel = NFTModuleViewModel()
     
     var body: some View {
-        VStack(alignment: .leading) {
-            NavigationBarView()
-            TopCreatorsView(viewModel: viewModel)
-            CreatorsCardsView(viewModel: viewModel)
-            CreatorsCategoryPickerView(viewModel: viewModel)
-        }
-        .setBackground()
-        .ignoresSafeArea(.all)
         
-    }
+            VStack(alignment: .leading) {
+                NavigationBarView()
+                TopCreatorsView(viewModel: viewModel)
+                CreatorsCardsView(viewModel: viewModel)
+                CreatorsCategoryPickerView(viewModel: viewModel)
+            }
+            .setBackground()
+            .ignoresSafeArea(.all)
+            
+        }
 }
 
 struct NFTModuleView_Previews: PreviewProvider {

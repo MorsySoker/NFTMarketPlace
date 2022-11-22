@@ -13,6 +13,7 @@ struct TopCreatorsView:  View {
     var headerText: String = "Top Creators"
     
     var body: some View {
+        
         VStack(spacing: 10){
             HeaderView(text: headerText)
             
