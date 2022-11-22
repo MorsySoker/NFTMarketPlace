@@ -11,7 +11,7 @@ struct MarketOverviewView: View {
     var body: some View {
         VStack {
             MarketOverviewHeaderView()
-            Spacer()
+            marketPriceOverView()
         }
         .setBackground()
     }

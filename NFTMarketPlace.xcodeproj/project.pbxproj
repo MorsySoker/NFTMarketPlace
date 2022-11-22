@@ -34,6 +34,8 @@
 		1DC0155E292BD28E00072D45 /* CreatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC0155D292BD28E00072D45 /* CreatorModel.swift */; };
 		1DC01565292BF42500072D45 /* MarketOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC01564292BF42500072D45 /* MarketOverviewView.swift */; };
 		1DC01568292BF5DF00072D45 /* MarketOverviewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC01567292BF5DF00072D45 /* MarketOverviewHeaderView.swift */; };
+		A2501263292D48D2000B4AF1 /* MarketOVTopCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2501262292D48D2000B4AF1 /* MarketOVTopCategory.swift */; };
+		A2501265292D4A2C000B4AF1 /* MarketOverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2501264292D4A2C000B4AF1 /* MarketOverviewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,8 @@
 		1DC0155D292BD28E00072D45 /* CreatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorModel.swift; sourceTree = "<group>"; };
 		1DC01564292BF42500072D45 /* MarketOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketOverviewView.swift; sourceTree = "<group>"; };
 		1DC01567292BF5DF00072D45 /* MarketOverviewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketOverviewHeaderView.swift; sourceTree = "<group>"; };
+		A2501262292D48D2000B4AF1 /* MarketOVTopCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketOVTopCategory.swift; sourceTree = "<group>"; };
+		A2501264292D4A2C000B4AF1 /* MarketOverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MarketOverviewViewModel.swift; path = "NFTMarketPlace/Scenes/Market Overview/View/Sub Views/MarketOverviewViewModel.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,6 +291,7 @@
 		1DC01562292BF40500072D45 /* View Model */ = {
 			isa = PBXGroup;
 			children = (
+				A2501264292D4A2C000B4AF1 /* MarketOverviewViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				1DC01567292BF5DF00072D45 /* MarketOverviewHeaderView.swift */,
+				A2501262292D48D2000B4AF1 /* MarketOVTopCategory.swift */,
 			);
 			path = "Sub Views";
 			sourceTree = "<group>";
@@ -388,6 +394,7 @@
 				1DB2DC3D292BCAD30070EB67 /* Color+Extension.swift in Sources */,
 				1DB2DC3F292BCAD30070EB67 /* Color+App.swift in Sources */,
 				1DC0155E292BD28E00072D45 /* CreatorModel.swift in Sources */,
+				A2501263292D48D2000B4AF1 /* MarketOVTopCategory.swift in Sources */,
 				1DB2DC2E292BC9C00070EB67 /* CreatorIconView.swift in Sources */,
 				1DB2DC34292BC9E30070EB67 /* NavigationBarView.swift in Sources */,
 				1DB2DC3E292BCAD30070EB67 /* Fonts+App.swift in Sources */,
@@ -395,6 +402,7 @@
 				1DB2DC28292BC8180070EB67 /* View+Apperance.swift in Sources */,
 				1DB2DC25292BC7DC0070EB67 /* NFTModuleView.swift in Sources */,
 				1DC01565292BF42500072D45 /* MarketOverviewView.swift in Sources */,
+				A2501265292D4A2C000B4AF1 /* MarketOverviewViewModel.swift in Sources */,
 				1DB2DC33292BC9E30070EB67 /* TopCreatorsView.swift in Sources */,
 				1D8AE935292CB3A300DCDB5B /* TabBarView.swift in Sources */,
 				1D8AE933292CAAD600DCDB5B /* TabBarIcon.swift in Sources */,
