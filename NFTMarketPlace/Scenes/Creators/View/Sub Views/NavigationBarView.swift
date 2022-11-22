@@ -2,7 +2,7 @@
 //  NavigationBarView.swift
 //  NFT MarketPlace
 //
-//  Created by MorsyElsokary on 21/11/2022.
+//  Created by Emad Hany Isaac on 21/11/2022.
 //
 
 import SwiftUI
