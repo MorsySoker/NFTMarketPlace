@@ -18,15 +18,15 @@ enum TabBarPage: CaseIterable {
     var icon: String {
         switch self {
         case .creatorsRanking:
-            return ""
+            return "Home"
         case .secondTab:
-            return ""
+            return "Home"
         case .thirdTab:
-            return ""
+            return "Play"
         case .fourthTab:
-            return ""
+            return "Home"
         case .fifthTab:
-            return ""
+            return "Home"
         }
     }
 }

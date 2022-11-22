@@ -11,32 +11,15 @@ struct TabBarView: View {
     
     @StateObject private var pageRouter: PageRouter = PageRouter(currentPage: .creatorsRanking)
     
-
+    
     private var tabBar: some View {
-        
         HStack {
-            TabBarIcon(pageRouter: pageRouter,
-                       systemIconName: "Home", page: .creatorsRanking)
-            
-            Spacer()
-            
-            TabBarIcon(pageRouter: pageRouter,
-                       systemIconName: "Home", page: .secondTab)
-            
-            Spacer()
-            
-            TabBarIcon(pageRouter: pageRouter,
-                       systemIconName: "Play", page: .thirdTab)
-            
-            Spacer()
-            
-            TabBarIcon(pageRouter: pageRouter,
-                       systemIconName: "Home", page: .fourthTab)
-            
-            Spacer()
-            
-            TabBarIcon(pageRouter: pageRouter,
-                       systemIconName: "Home", page: .fifthTab)
+            ForEach(TabBarPage.allCases, id: \.self) { tab in
+                TabBarIcon(pageRouter: pageRouter,
+                           systemIconName: tab.icon,
+                           page: tab)
+                .frame(maxWidth: .infinity)
+            }
         }
         .frame(height: 50)
         .padding(.horizontal, 20)
@@ -60,7 +43,6 @@ struct TabBarView: View {
             Spacer()
             
             tabBar
-            
         }
         .setBackground()
     }
