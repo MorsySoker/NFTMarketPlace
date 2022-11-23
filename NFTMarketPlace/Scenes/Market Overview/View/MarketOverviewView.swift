@@ -12,7 +12,8 @@ struct MarketOverviewView: View {
         VStack {
             MarketOverviewHeaderView()
             marketPriceOverView()
-        }
+            Spacer()
+        }.padding(.top)
         .setBackground()
     }
 }
