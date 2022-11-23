@@ -32,15 +32,16 @@ struct MarketOverviewHeaderView: View {
                 Rectangle()
                     .frame(width: 100, height: 30)
                     .foregroundColor(Color("#FD405E"))
-                   
+                    .cornerRadius(4)
                 )
+                .padding(.trailing,3)
             Image(systemName: "bell.fill")
                 .foregroundColor(Color.white)
         
         }.padding(.trailing, 13)
 
             
-        }.padding(.horizontal)
+        }.padding( 10)
     }
 }
 
