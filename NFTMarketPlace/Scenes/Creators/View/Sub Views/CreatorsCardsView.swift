@@ -29,7 +29,9 @@ struct CreatorsCardsView: View{
             ScrollView(.horizontal, showsIndicators: false){
                 HStack(spacing: 20){
                     ForEach(viewModel.creatorsArray) { creator in
-                        CreatorCardView(creator: creator)
+                        CreatorCardView(creator: creator) {
+                            viewModel.navigateToCreator = true
+                        }
                     }
                 }
             }

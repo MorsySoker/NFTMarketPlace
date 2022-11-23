@@ -11,10 +11,11 @@ import SwiftUI
 struct CreatorCardView: View {
     
     var creator: CreatorModel
+    var onPressed: (() -> Void)?
     
     var body: some View {
         
-        Button {} label: {
+        Button { if let onPressed { onPressed() } } label: {
             VStack(alignment: .leading) {
                 HStack{
                     Image("\(creator.image)")

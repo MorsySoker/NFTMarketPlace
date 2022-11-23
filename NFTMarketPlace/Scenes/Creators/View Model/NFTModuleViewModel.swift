@@ -12,6 +12,7 @@ import Combine
 final class NFTModuleViewModel: ObservableObject {
     
     @Published var creatorsArray: [CreatorModel] = []
+    @Published var navigateToCreator: Bool = false
     
     init() {
         creatorsArray = CreatorModel.creators()
