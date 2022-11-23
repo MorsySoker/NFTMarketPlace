@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		1D7A4ACD292BCE8F00691C97 /* CreatorsCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A4ACC292BCE8F00691C97 /* CreatorsCardsView.swift */; };
 		1D7A4AD2292BD09100691C97 /* NFTModuleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A4AD1292BD09100691C97 /* NFTModuleViewModel.swift */; };
-		1D8AE92A292C933300DCDB5B /* AppNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8AE929292C933300DCDB5B /* AppNavigationBar.swift */; };
 		1D8AE92F292CAA2C00DCDB5B /* PageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8AE92E292CAA2C00DCDB5B /* PageRouter.swift */; };
 		1D8AE933292CAAD600DCDB5B /* TabBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8AE932292CAAD600DCDB5B /* TabBarIcon.swift */; };
 		1D8AE935292CB3A300DCDB5B /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8AE934292CB3A300DCDB5B /* TabBarView.swift */; };
+		1DADADA9292D5AA500AC362F /* MarketOverViewInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DADADA8292D5AA500AC362F /* MarketOverViewInfoView.swift */; };
+		1DADADAD292DD84400AC362F /* BackNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DADADAC292DD84400AC362F /* BackNavigationBarView.swift */; };
 		1DAEE800292C02A500E0C21B /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAEE7FF292C02A500E0C21B /* CategoryView.swift */; };
 		1DB2DC16292BC7800070EB67 /* NFTMarketPlaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2DC15292BC7800070EB67 /* NFTMarketPlaceApp.swift */; };
 		1DB2DC1A292BC7830070EB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2DC19292BC7830070EB67 /* Assets.xcassets */; };
@@ -41,10 +42,11 @@
 /* Begin PBXFileReference section */
 		1D7A4ACC292BCE8F00691C97 /* CreatorsCardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatorsCardsView.swift; sourceTree = "<group>"; };
 		1D7A4AD1292BD09100691C97 /* NFTModuleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTModuleViewModel.swift; sourceTree = "<group>"; };
-		1D8AE929292C933300DCDB5B /* AppNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationBar.swift; sourceTree = "<group>"; };
 		1D8AE92E292CAA2C00DCDB5B /* PageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageRouter.swift; sourceTree = "<group>"; };
 		1D8AE932292CAAD600DCDB5B /* TabBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarIcon.swift; sourceTree = "<group>"; };
 		1D8AE934292CB3A300DCDB5B /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		1DADADA8292D5AA500AC362F /* MarketOverViewInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketOverViewInfoView.swift; sourceTree = "<group>"; };
+		1DADADAC292DD84400AC362F /* BackNavigationBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackNavigationBarView.swift; sourceTree = "<group>"; };
 		1DAEE7FF292C02A500E0C21B /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		1DB2DC12292BC7800070EB67 /* NFTMarketPlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFTMarketPlace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB2DC15292BC7800070EB67 /* NFTMarketPlaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTMarketPlaceApp.swift; sourceTree = "<group>"; };
@@ -218,7 +220,7 @@
 				1DB2DC2D292BC9C00070EB67 /* CreatorCardView.swift */,
 				1DB2DC2B292BC9C00070EB67 /* CreatorIconView.swift */,
 				1DB2DC2C292BC9C00070EB67 /* HeaderView.swift */,
-				1D8AE929292C933300DCDB5B /* AppNavigationBar.swift */,
+				1DADADAC292DD84400AC362F /* BackNavigationBarView.swift */,
 			);
 			path = "View Components";
 			sourceTree = "<group>";
@@ -308,6 +310,7 @@
 			children = (
 				1DC01567292BF5DF00072D45 /* MarketOverviewHeaderView.swift */,
 				A2501262292D48D2000B4AF1 /* MarketOVTopCategory.swift */,
+				1DADADA8292D5AA500AC362F /* MarketOverViewInfoView.swift */,
 			);
 			path = "Sub Views";
 			sourceTree = "<group>";
@@ -387,12 +390,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DB2DC2F292BC9C00070EB67 /* HeaderView.swift in Sources */,
-				1D8AE92A292C933300DCDB5B /* AppNavigationBar.swift in Sources */,
+				1DADADA9292D5AA500AC362F /* MarketOverViewInfoView.swift in Sources */,
 				1DAEE800292C02A500E0C21B /* CategoryView.swift in Sources */,
 				1D8AE92F292CAA2C00DCDB5B /* PageRouter.swift in Sources */,
 				1D7A4ACD292BCE8F00691C97 /* CreatorsCardsView.swift in Sources */,
 				1DB2DC3D292BCAD30070EB67 /* Color+Extension.swift in Sources */,
 				1DB2DC3F292BCAD30070EB67 /* Color+App.swift in Sources */,
+				1DADADAD292DD84400AC362F /* BackNavigationBarView.swift in Sources */,
 				1DC0155E292BD28E00072D45 /* CreatorModel.swift in Sources */,
 				A2501263292D48D2000B4AF1 /* MarketOVTopCategory.swift in Sources */,
 				1DB2DC2E292BC9C00070EB67 /* CreatorIconView.swift in Sources */,
